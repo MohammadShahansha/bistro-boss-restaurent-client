@@ -5,11 +5,11 @@ import './Feature.css'
 
 const Featured = () => {
     return (
-        <div className='feature-item bg-fixed text-white mb-9'>
+        <div className='feature-item h-[700px] bg-fixed text-white mb-9'>
             <div className='pt-10'>
             <TitleSection
              subHeading={"Check it out"}
-             heading={"FROM OUR MENU"}
+             heading={"FROM OUR MENU"} 
             ></TitleSection>
 
             </div>

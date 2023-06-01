@@ -91,7 +91,7 @@ const Login = () => {
                                 {/* <button onClick={handelValidateCpatcha} className="btn btn-sm mt-2">Validate Captcha</button> */}
                             </div>
                             <div className="form-control mt-6">
-                                <input disabled={disabled} className="btn btn-primary" type="submit" value="Login" />
+                                <input disabled={false} className="btn btn-primary" type="submit" value="Login" />
                                 <p className='text-center'><small>New Here?</small><Link to="/signup" className='underline text-sky-600'>Open an Account</Link></p>
                             </div>
                         </form>
